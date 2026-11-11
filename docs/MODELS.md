@@ -21,6 +21,10 @@ Fonsviva never deletes a file it did not download unless the user confirms that 
 - **Any Hugging Face model.** Search Hugging Face directly. Models without a recipe are marked "untested here" until the user runs the gates.
 - **Safe downloads.** Show size and time first, resume interrupted downloads, verify checksums, and use the user's Hugging Face token only for gated models they have access to.
 
+## Storage
+
+Disk use, dedupe, moving models, cleanup, quotas and protection are covered in [STORAGE](STORAGE.md).
+
 ## Trusted models
 
 Each app keeps a list of models that passed its task gates. The manager shows which installed models qualify for which app, so a user never has to guess.

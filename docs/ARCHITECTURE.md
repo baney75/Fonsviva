@@ -14,14 +14,23 @@ Engines: vLLM and SGLang on large GPUs; llama.cpp on Macs, CPUs and small cards.
 
 ## What Fonsviva adds
 
-1. **Model manager.** One inventory of installed models across every engine and device, plus a guided way to get new ones. See [MODELS.md](MODELS.md).
+1. **Model manager and storage.** One inventory of installed models across every engine and device, a guided way to get new ones, and storage management. See [MODELS.md](MODELS.md) and [STORAGE](STORAGE.md).
 2. **Job queue.** Long jobs keep running while the user is away, survive restarts, and report where and how they ran.
 3. **Sparks (compute nodes).** Machines that people choose to share privately with a family, team or campus. Owners set who can use them, when, and how much.
 4. **Hugging Face connector.** Search, download and verify models, with token handling for gated models.
-5. **Per-app API keys and usage.** Each app or agent gets its own key, limits and usage history, and can be revoked alone.
+5. **Keys and usage.** Org keys scoped by app, model, job type and node, with expiry, limits, rotation, revoke and a usage log; agents can make narrower, short-lived keys. See [KEYS](KEYS.md).
 6. **Connect your agents.** Copy-paste setup for every supported harness. See [CONNECT.md](CONNECT.md).
 7. **Workload profiles and the cloud block.** Every request carries a profile (personal, UntoCaesar, UniCerebrum, Gantrel). Cloud providers can serve only personal work. See [CLOUD.md](CLOUD.md).
-8. **Device benchmarks.** Measure any device with the registry's gates plus each app's task gates. See [BENCHMARKS.md](../BENCHMARKS.md).
+8. **Jobs of every type.** Chat, batch, notebooks, images, video, audio, embeddings, training and renders. See [JOBS](JOBS.md).
+9. **Costs and spend protection.** See [COSTS](COSTS.md).
+10. **Device benchmarks.** Measure any device with the registry's gates plus each app's task gates. See [BENCHMARKS.md](../BENCHMARKS.md).
+
+## Who owns what
+
+- **Fonsviva runs on its own.** It installs and works without any app, as a CLI (`fonsviva`) plus a web app, and is then shared by every app on the machine or network.
+- **Apps own model choice.** People pick models inside UntoCaesar, Gantrel and UniCerebrum. Fonsviva downloads, stores and serves them.
+- **Fonsviva owns compute and cloud.** Adding machines and nodes, linking cloud accounts, turning providers on or off, keys, costs and budgets happen only in Fonsviva. See [COMPUTE](COMPUTE.md), [COSTS](COSTS.md), [providers](providers.md).
+- **Install flow in every app.** If an app finds Fonsviva, it connects and lets the person pick or install models in the app. If not, the app installs Fonsviva (after asking) and runs its setup inside the app's onboarding, including the optional cloud step with the same personal-use-only rule and blocks.
 
 ## How the apps use it
 

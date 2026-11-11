@@ -1,0 +1,30 @@
+# Fonsviva
+
+> The shared local compute and model-serving layer for UntoCaesar, Gantrel and UniCerebrum. Status: planned, not released; check SUPPORTED.md before doing any step.
+
+Cloud providers are personal use only and live only in Fonsviva. Apps never hold provider keys. UntoCaesar client work and UniCerebrum are blocked from cloud.
+
+## Setup
+- [For agents: quickstart](https://baney75.github.io/Fonsviva/agents): rules and order of steps
+- [Install](https://baney75.github.io/Fonsviva/setup/install): steps, checks, expected output
+- [Connect apps and agents](https://baney75.github.io/Fonsviva/setup/connect-fonsviva)
+- [Select models](https://baney75.github.io/Fonsviva/setup/select-models)
+- [Add a cloud provider](https://baney75.github.io/Fonsviva/setup/add-cloud-provider)
+- [Troubleshoot](https://baney75.github.io/Fonsviva/setup/troubleshoot)
+
+## Project
+- [AGENTS.md](https://github.com/baney75/Fonsviva/blob/main/AGENTS.md): rules for agents working on the code
+- [SUPPORTED.md](https://github.com/baney75/Fonsviva/blob/main/SUPPORTED.md): what works today
+- [TESTING.md](https://github.com/baney75/Fonsviva/blob/main/TESTING.md): how claims are proven
+
+## Reference
+- [Architecture](https://baney75.github.io/Fonsviva/ARCHITECTURE): what Fonsviva builds on and adds
+- [Model manager](https://baney75.github.io/Fonsviva/MODELS): installed models and getting new ones
+- [Connect agents](https://baney75.github.io/Fonsviva/CONNECT): setup per coding harness
+- [Cloud rules](https://baney75.github.io/Fonsviva/CLOUD): personal use only, blocks and legal basis
+- [Providers](https://baney75.github.io/Fonsviva/providers): vetted cloud providers with sources
+- [Adding compute](https://baney75.github.io/Fonsviva/COMPUTE): machines, nodes, cloud; keychain keys, pairing, revoke
+- [Costs](https://baney75.github.io/Fonsviva/COSTS): power and cloud cost, budgets, spend protection
+- [Jobs](https://baney75.github.io/Fonsviva/JOBS): job types, statuses and CLI
+- [Storage](https://baney75.github.io/Fonsviva/STORAGE): disk use, dedupe, move, cleanup, quotas
+- [Keys](https://baney75.github.io/Fonsviva/KEYS): org keys, scopes, limits, agent-made keys, safe sharing

@@ -11,7 +11,14 @@ The name is Latin for "living fountain," from Jeremiah 2:13: "they have forsaken
 - **Keep working while you're away.** A job queue runs long work in the background and survives restarts.
 - **Share compute privately.** Compute nodes ("Sparks") let a family, a team or a campus pool their own machines over a private network.
 - **Connect any agent.** OpenAI- and Anthropic-compatible endpoints, with per-app API keys, usage tracking and copy-paste setup for pi, oh-my-pi, opencode, Crush, Goose, Aider, Cline, Kilo, Continue, Claude Code, Codex and Hermes.
-- **Cloud for personal use only.** RunPod and other cloud providers can be turned on for a personal profile. They live only in Fonsviva (the apps never call a provider themselves), are off by default, and are never used for client tax returns or institutional data. See [docs/CLOUD.md](docs/CLOUD.md).
+- **Add compute safely.** A guided flow adds a machine, a Spark or a cloud provider, with keys in the OS keychain, pairing over Tailscale and one-step revoke. See [docs/COMPUTE.md](docs/COMPUTE.md).
+- **Know the cost.** Power cost for local work and rental cost for cloud, before a job runs, with budgets. See [docs/COSTS.md](docs/COSTS.md).
+- **Keep disks tidy.** See disk use per model, drive and node, dedupe shared weights, move models and clean up safely. See [docs/STORAGE.md](docs/STORAGE.md).
+- **Keys done right.** Scoped, expiring keys with limits and usage logs, and safe sharing. See [docs/KEYS.md](docs/KEYS.md).
+- **Any kind of job.** Chat, batch, notebooks, images, video, audio, embeddings, training and renders, all queued with logs and artifacts. See [docs/JOBS.md](docs/JOBS.md).
+- **Cloud for personal use only.** RunPod and other cloud providers can be turned on for a personal profile. They live only in Fonsviva (the apps never call a provider themselves), are off by default, and are never used for client tax returns or institutional data. See [docs/CLOUD.md](docs/CLOUD.md) and the [vetted provider list](docs/providers.md).
+
+Agents setting Fonsviva up for someone: start at [docs/agents.md](docs/agents.md) or [llms.txt](llms.txt). Site: https://baney75.github.io/Fonsviva/
 
 ## Built on
 

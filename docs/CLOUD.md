@@ -8,6 +8,9 @@ UntoCaesar, Gantrel and UniCerebrum never talk to a cloud provider. They connect
 
 ## The rule
 
+- **Vetted providers only.** Providers come from [providers](providers.md).
+- **Spend protection on.** Budget caps, auto-stop, orphan cleanup and an emergency stop are always on. See [COSTS](COSTS.md).
+
 - **Off by default.** Cloud providers stay off until the user turns them on.
 - **Personal profile only.** They can be enabled only on a personal profile.
 - **Hard block for protected work.** Jobs from UntoCaesar client or volunteer returns and from UniCerebrum (institutional and student data) can never run on a cloud provider. There is no override, setting or flag that changes this. Those jobs run on owned local compute or shared Sparks the institution or preparer controls, or they wait.
