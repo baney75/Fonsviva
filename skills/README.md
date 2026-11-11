@@ -1,6 +1,6 @@
 # Skills
 
-Skills are the instructions that make agents build Fonsviva and help users run it well. They must be standardized and powerfully good: a weak or vague skill is a bug.
+Skills are the instructions that make agents build Fonsviva and help users run it well. They must be standardized, precise and tested. A weak or vague skill is a bug.
 
 ## Two sets
 

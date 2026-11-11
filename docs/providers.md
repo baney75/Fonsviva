@@ -4,6 +4,8 @@ Cloud providers are **personal use only**, live only in Fonsviva, and are off by
 
 ## How this list is made
 
+This is a starting list, not a security review. Before any provider can be turned on, check its published terms: data processing agreement, SOC 2 or ISO 27001 report, data region and deletion policy. Add what you find to its row.
+
 Fonsviva builds on the work of Sherif ([0xSero](https://github.com/0xSero), [Sybil Solutions](https://github.com/sybil-solutions)). A provider is listed only if Sherif has publicly used it, or mentioned it neutrally or positively, and has never spoken badly of it. Each entry links the source. Providers he never mentioned are left out, even good ones. Checked 2026-11-11 against the sybil-solutions and 0xSero GitHub repos, local.sybilsolutions.ai, localstudio.ai, sybilsolutions.ai and his posts on X.
 
 None of these providers publishes FERPA or IRS Section 7216 terms, and none is listed here as confidential (TEE) compute. Listing means "trusted enough for personal experiments," nothing more.

@@ -4,7 +4,10 @@ Fonsviva is an open-source, local compute and model-serving layer. It runs AI mo
 
 The name is Latin for "living fountain," from Jeremiah 2:13: "they have forsaken me, the fountain of living waters, and hewed them out cisterns, broken cisterns, that can hold no water."
 
-## What it does
+## What it will do (planned)
+
+Nothing below is built yet. See [SUPPORTED.md](SUPPORTED.md) for what works today.
+
 
 - **Manage the models you already have.** One list of every model on your devices, from Ollama, LM Studio, llama.cpp, vLLM, SGLang and the Hugging Face cache, with size, quantization, measured speed and which apps use each one. Update, remove or pin any model in one click.
 - **Get local models easily.** Browse Hugging Face and tested registry recipes, filtered to what fits your hardware. Each model shows whether it passed the registry's gates on hardware like yours before you download it.
@@ -26,11 +29,22 @@ Fonsviva builds on open work from [Sybil Solutions](https://github.com/sybil-sol
 
 - [Local Studio](https://github.com/sybil-solutions/local-studio) (MIT): the controller that discovers vLLM, SGLang, llama.cpp, LM Studio and any `/v1/models` server, serves OpenAI Chat Completions, Completions, Anthropic Messages and Responses APIs, and reaches every machine over Tailscale.
 - [Local AI registry](https://github.com/sybil-solutions/local-ai-registry) ([local.sybilsolutions.ai](https://local.sybilsolutions.ai)): tested model recipes per GPU and the six gates every recipe must pass.
-- [local-ai-images](https://github.com/sybil-solutions/local-ai-images): attested container images pinned by the registry, so a recipe runs the same everywhere.
-- [spark-stack](https://github.com/sybil-solutions/spark-stack): preparing, serving, freeing and reporting on models across DGX Sparks.
+- [local-ai-images](https://github.com/sybil-solutions/local-ai-images): attested container images pinned by the registry, so a recipe runs the same everywhere. No license yet, so it is a reference, not a dependency, until one is added.
+- [spark-stack](https://github.com/sybil-solutions/spark-stack): preparing, serving, freeing and reporting on models across DGX Sparks. No license yet, so it is a reference, not a dependency, until one is added.
 - [harness-bridge](https://github.com/0xSero/harness-bridge) and [omarchy-local-ai](https://github.com/0xSero/omarchy-local-ai): pointing coding harnesses at a local endpoint.
 
 Engines: vLLM and SGLang for large GPUs, llama.cpp for Macs, CPUs and small cards. LiteLLM or GPUStack are optional for routing or a standalone cluster, and llm-d is used only where a university already runs Kubernetes. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for what Fonsviva adds on top.
+
+## First version (v0)
+
+Local Studio already finds local inference servers, serves OpenAI and Anthropic compatible APIs, links machines over Tailscale and launches registry recipes. Fonsviva v0 runs on top of its controller and adds only what it lacks:
+
+- one list of installed models across Ollama, LM Studio, llama.cpp and the Hugging Face cache
+- per-app API keys, each bound to one profile
+- tested setup for pi, opencode, Claude Code and Codex
+- a small CLI and web dashboard for the above
+
+Jobs of every type, cost tracking, cloud providers and shared compute nodes come after v0.
 
 ## Principles
 
