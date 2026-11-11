@@ -11,6 +11,6 @@ Start with `fonsviva doctor`. It checks the service, engines, models, keys and n
 | Model won't load | `fonsviva models test <id>` | Pick a smaller model or quantization that fits; the output says how much memory it needs. |
 | Slow replies | `fonsviva models list` speed column | Use a recipe that passed the speed gate on this hardware. |
 | Job waiting | `fonsviva jobs list` | Protected jobs wait for owned machines and never fall back to cloud. Free a machine or add a Spark. |
-| Cloud job refused | `fonsviva cloud list` | Expected for UntoCaesar client work and UniCerebrum. Cloud is personal use only. |
+| Cloud job refused | `fonsviva cloud list` | Expected for UntoCaesar client work and Corunis. Cloud is personal use only. |
 
 If a check isn't in SUPPORTED.md yet, tell the person it's not supported yet instead of guessing. Report bugs at [https://github.com/baney75/Fonsviva/issues](https://github.com/baney75/Fonsviva/issues).

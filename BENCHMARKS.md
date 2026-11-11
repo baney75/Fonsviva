@@ -17,7 +17,7 @@ On top of the registry gates, Fonsviva measures:
 - **Concurrency:** speed with two and four requests at once, for shared Sparks.
 - **API fidelity:** tool calls and streaming come back correctly through both the OpenAI and Anthropic endpoints.
 
-Each dependent app (UntoCaesar, Gantrel, UniCerebrum) adds its own task gates in its own repo. A model is offered to an app only where it passed that app's gates on that hardware.
+Each dependent app (UntoCaesar, Gantrel, Corunis) adds its own task gates in its own repo. A model is offered to an app only where it passed that app's gates on that hardware.
 
 ## How a run works
 

@@ -4,7 +4,7 @@ RunPod and other cloud GPU providers are useful for one person's own experiments
 
 ## Fonsviva is the only place cloud lives
 
-UntoCaesar, Gantrel and UniCerebrum never talk to a cloud provider. They connect to Fonsviva and show where each job ran. Fonsviva alone owns adding providers, storing their keys (encrypted, never shown again after entry), estimating and tracking cost, the personal-use-only rule and the blocks below. The apps' compute settings are "Connect to Fonsviva" screens.
+UntoCaesar, Gantrel and Corunis never talk to a cloud provider. They connect to Fonsviva and show where each job ran. Fonsviva alone owns adding providers, storing their keys (encrypted, never shown again after entry), estimating and tracking cost, the personal-use-only rule and the blocks below. The apps' compute settings are "Connect to Fonsviva" screens.
 
 ## The rule
 
@@ -13,7 +13,7 @@ UntoCaesar, Gantrel and UniCerebrum never talk to a cloud provider. They connect
 
 - **Off by default.** Cloud providers stay off until the user turns them on.
 - **Personal profile only.** They can be enabled only on a personal profile.
-- **Hard block for protected work.** Jobs from UntoCaesar client or volunteer returns and from UniCerebrum (institutional and student data) can never run on a cloud provider. There is no override, setting or flag that changes this. Those jobs run on owned local compute or shared Sparks the institution or preparer controls, or they wait.
+- **Hard block for protected work.** Jobs from UntoCaesar client or volunteer returns and from Corunis (institutional and student data) can never run on a cloud provider. There is no override, setting or flag that changes this. Those jobs run on owned local compute or shared Sparks the institution or preparer controls, or they wait.
 - **Cost first.** Before a cloud job starts, Fonsviva shows the expected cost and the provider.
 - **Confirm every job.** Each cloud job needs an explicit confirmation. No silent fallback to cloud when local is busy.
 - **Labelled.** Every job and result records where it ran.

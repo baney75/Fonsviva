@@ -1,8 +1,8 @@
 # Fonsviva
 
-> The shared local compute and model-serving layer for UntoCaesar, Gantrel and UniCerebrum. Status: planned, not released; check SUPPORTED.md before doing any step.
+> The shared local compute and model-serving layer for UntoCaesar, Gantrel and Corunis. Status: planned, not released; check SUPPORTED.md before doing any step.
 
-Cloud providers are personal use only and live only in Fonsviva. Apps never hold provider keys. UntoCaesar client work and UniCerebrum are blocked from cloud.
+Cloud providers are personal use only and live only in Fonsviva. Apps never hold provider keys. UntoCaesar client work and Corunis are blocked from cloud.
 
 ## Setup
 - [For agents: quickstart](https://baney75.github.io/Fonsviva/agents): rules and order of steps

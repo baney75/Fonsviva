@@ -4,13 +4,13 @@ Instructions for AI coding agents (Claude Code, Codex, Cursor and others) workin
 
 ## What this project is
 
-The shared local compute and model-serving layer for UntoCaesar, Gantrel and UniCerebrum. It discovers and manages local models, downloads new ones matched to the hardware, runs a job queue, pools privately shared compute nodes, and serves everything through OpenAI- and Anthropic-compatible APIs. It is built on Sybil Solutions' Local Studio and Local AI registry; see `docs/ARCHITECTURE.md`.
+The shared local compute and model-serving layer for UntoCaesar, Gantrel and Corunis. It discovers and manages local models, downloads new ones matched to the hardware, runs a job queue, pools privately shared compute nodes, and serves everything through OpenAI- and Anthropic-compatible APIs. It is built on Sybil Solutions' Local Studio and Local AI registry; see `docs/ARCHITECTURE.md`.
 
 ## Ground rules
 
 - **Build on, don't rebuild.** Use Local Studio, the Local AI registry, harness-bridge and the engines (vLLM, SGLang, llama.cpp) as they are. Contribute fixes upstream where they belong. Only build what Fonsviva adds.
 - **Local first.** Every feature works on the user's own hardware with no cloud account.
-- **Cloud is personal use only.** Cloud providers (RunPod and others) are off by default, available only on a personal profile, and hard-blocked for UntoCaesar client or volunteer work and for UniCerebrum institutional data. Fonsviva is the only place cloud providers, their keys and costs live; the apps never call a provider directly. Follow `docs/CLOUD.md` exactly. Never weaken this block, and never add a setting that bypasses it.
+- **Cloud is personal use only.** Cloud providers (RunPod and others) are off by default, available only on a personal profile, and hard-blocked for UntoCaesar client or volunteer work and for Corunis institutional data. Fonsviva is the only place cloud providers, their keys and costs live; the apps never call a provider directly. Follow `docs/CLOUD.md` exactly. Never weaken this block, and never add a setting that bypasses it.
 - **Private and secure by default.** API keys are scoped per app and stored in the OS keychain or an encrypted store, never in plain config.
 - **Never burn money.** Cloud spend protection in `docs/COSTS.md` is always on. Never add a way around budget caps or auto-stop. Never log, print or send secrets, prompts or outputs.
 - **Don't break the apps that depend on it.** API changes stay backward compatible. A breaking change needs a new version path and a migration plan.

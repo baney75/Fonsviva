@@ -25,7 +25,7 @@ For every harness in `docs/CONNECT.md` (pi, oh-my-pi, opencode, Crush, Goose, Ai
 
 ### Cloud block
 
-- With cloud providers on, any job carrying an UntoCaesar client or volunteer profile, or a UniCerebrum profile, is refused before a single byte leaves the machine. Checked by watching network traffic, not just the response.
+- With cloud providers on, any job carrying an UntoCaesar client or volunteer profile, or a Corunis profile, is refused before a single byte leaves the machine. Checked by watching network traffic, not just the response.
 - No setting, flag, environment variable or API field turns this off.
 - A personal job never goes to cloud without its own confirmation, and the cost is shown first.
 - Every job record says where it ran.
@@ -69,7 +69,7 @@ For each job type in `docs/JOBS.md` (chat, batch, notebooks, image, video, audio
 
 - With Fonsviva running, each app connects and lets the user pick and install models in the app.
 - With no Fonsviva, each app installs it only after asking, runs its setup inside the app, and the result is a standalone Fonsviva another app can reuse.
-- The app's cloud step for UntoCaesar client work or UniCerebrum is absent or blocked.
+- The app's cloud step for UntoCaesar client work or Corunis is absent or blocked.
 
 ### Model storage
 
@@ -83,7 +83,7 @@ For each job type in `docs/JOBS.md` (chat, batch, notebooks, image, video, audio
 
 - **Expiry:** a key fails on the first request after it expires; an agent-made key with no expiry set expires after 1 hour.
 - **Limits:** each limit (rate, tokens, spend, concurrent jobs) is hit exactly at its value: the next request or job is refused with a plain reason, and the usage log records it.
-- **Cloud on a key:** off by default; a key without cloud permission can't cause a cloud job even when the profile allows cloud; UntoCaesar client and UniCerebrum keys can never be given cloud.
+- **Cloud on a key:** off by default; a key without cloud permission can't cause a cloud job even when the profile allows cloud; UntoCaesar client and Corunis keys can never be given cloud.
 - **Scope:** a request for a model, job type, app or node outside the key's scope is refused.
 - **No widening:** an agent asking to create a key with any scope or limit wider than its own key is refused, field by field; every agent-made key is labelled and in the audit log.
 - **Rotate:** after rotation the old secret fails once the overlap ends, and the new one works with the same scope.

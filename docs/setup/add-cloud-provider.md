@@ -13,5 +13,5 @@ Cloud providers live only in Fonsviva. The vetted list is in [providers](../prov
 ## Check
 
 - `fonsviva cloud list` shows the provider as `on (personal only)`.
-- `fonsviva cloud enable <provider> --profile untocaesar-client` or `--profile unicerebrum` is refused with `blocked: protected workload`.
+- `fonsviva cloud enable <provider> --profile untocaesar-client` or `--profile corunis` is refused with `blocked: protected workload`.
 - A test job shows the cost first and waits for your confirmation.

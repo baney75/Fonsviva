@@ -1,6 +1,6 @@
 # Fonsviva
 
-Fonsviva is an open-source, local compute and model-serving layer. It runs AI models on hardware you own, lets you see and manage every model already on your machines, and serves them to apps and coding agents through one private API. [UntoCaesar](https://github.com/baney75/UntoCaesar), [Gantrel](https://github.com/baney75/Gantrel) and [UniCerebrum](https://github.com/baney75/UniCerebrum) run on it.
+Fonsviva is an open-source, local compute and model-serving layer. It runs AI models on hardware you own, lets you see and manage every model already on your machines, and serves them to apps and coding agents through one private API. [UntoCaesar](https://github.com/baney75/UntoCaesar), [Gantrel](https://github.com/baney75/Gantrel) and [Corunis](https://github.com/baney75/Corunis) run on it.
 
 The name is Latin for "living fountain," from Jeremiah 2:13: "they have forsaken me, the fountain of living waters, and hewed them out cisterns, broken cisterns, that can hold no water."
 

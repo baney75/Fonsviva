@@ -1,6 +1,6 @@
 # Releases: Stable and Dev
 
-UntoCaesar, Gantrel and UniCerebrum depend on Fonsviva, so it must be stable. It ships on two update channels only. There is no nightly channel.
+UntoCaesar, Gantrel and Corunis depend on Fonsviva, so it must be stable. It ships on two update channels only. There is no nightly channel.
 
 ## Channels
 

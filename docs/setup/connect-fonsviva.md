@@ -2,11 +2,11 @@
 
 > **Status: planned, not released.** Fonsviva has no release yet, so there is nothing to install today. These steps are the target behavior. Each one becomes true only when its test in [TESTING.md](https://github.com/baney75/Fonsviva/blob/main/TESTING.md) passes, and [SUPPORTED.md](https://github.com/baney75/Fonsviva/blob/main/SUPPORTED.md) is the source of truth for what works now. An agent must check SUPPORTED.md first and tell the person plainly if a step isn't supported yet.
 
-## Apps (UntoCaesar, Gantrel, UniCerebrum)
+## Apps (UntoCaesar, Gantrel, Corunis)
 
 Apps connect themselves: when an app finds Fonsviva it sends a connection request. Approve it in the web app under **Connect**, or run `fonsviva keys approve <app>`. Each app gets its own key and profile.
 
-Check: `fonsviva keys list` shows the app with status `active` and its profile (`personal`, `untocaesar-client` or `unicerebrum`).
+Check: `fonsviva keys list` shows the app with status `active` and its profile (`personal`, `untocaesar-client` or `corunis`).
 
 ## Coding agents
 

@@ -6,12 +6,12 @@ Every app, agent, person and node reaches Fonsviva with its own key. Keys are st
 
 Orgs and their admins create keys scoped by:
 
-- **App** (UntoCaesar, Gantrel, UniCerebrum, or a named agent)
+- **App** (UntoCaesar, Gantrel, Corunis, or a named agent)
 - **Model**
 - **Job type** (see [JOBS](JOBS.md))
 - **Node** (which machines it may run on)
 
-Each key can have an **expiry** and **limits**: requests per minute, tokens, spend, concurrent jobs, and allowed cloud use, which is **off by default** and can never be turned on for UntoCaesar client or UniCerebrum profiles ([CLOUD](CLOUD.md)).
+Each key can have an **expiry** and **limits**: requests per minute, tokens, spend, concurrent jobs, and allowed cloud use, which is **off by default** and can never be turned on for UntoCaesar client or Corunis profiles ([CLOUD](CLOUD.md)).
 
 Keys can be **rotated** (new secret, same scope, old one stops after a short overlap) and **revoked** in one step. Each key has a **usage log**: when, what job type, which model and node, tokens, cost and result.
 
