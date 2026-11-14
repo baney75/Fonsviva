@@ -8,7 +8,7 @@ Built on the core of [Local Studio](https://github.com/gildrb/local-studio) with
 
 ### Dashboard
 
-Local, web-dashboard running the Eukhe-Daemon.
+Local, [web-dashboard](https://claude.ai/artifact/MLM8Tq9hFw7QsYLqbmHaVj) running the Eukhe-Daemon.
 
 ### Recipes
 
